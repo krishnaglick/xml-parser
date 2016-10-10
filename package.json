@@ -1,0 +1,17 @@
+{
+  "name": "xml-parser",
+  "version": "1.0.0",
+  "description": "A node script to read a zip file and parse the contents as xml.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js test.zip ./temp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.16.4",
+    "node-stream-zip": "^1.3.4",
+    "xml2js": "^0.4.17"
+  }
+}
